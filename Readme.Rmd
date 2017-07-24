@@ -43,3 +43,5 @@ This will start a server instance of RStudio. Then open your web browser at loca
 
 Once logged in, use the Files pane (bottom right) to navigate to `/repro` (the set work directory), open the folder and you'll see the R markdown document. Knit them to produce the results in the paper. More information about using RStudio in Docker is avaiable at the [Rocker](https://github.com/rocker-org) [wiki](https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image) pages.
  
+### Reference
+[benmarwick/mjbtramp](https://github.com/benmarwick/mjbtramp)
