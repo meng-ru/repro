@@ -1,0 +1,7 @@
+container_name: liftr_container_46076856_abf8_4482_86fe_85270b7742a3
+image_name: repro_research
+docker_build_cmd: docker build --no-cache=false --rm=true  -t="repro_research" H:/Repro
+docker_run_cmd: docker run --rm --name "liftr_container_46076856_abf8_4482_86fe_85270b7742a3"
+  -u `id -u $USER` -v "H:/Repro:/liftrroot/" repro_research Rscript -e "library('knitr');library('rmarkdown');library('shiny');setwd('/liftrroot/');render(input
+  = 'repro_research.rmd')"
+
