@@ -31,7 +31,7 @@ This repository is built for our research on genetic signature. This contains al
 
 ### The Docker image 
 
-quoted from "benmarwick/mjbtramp":
+quoted from [benmarwick/mjbtramp](https://github.com/benmarwick/mjbtramp):
 
 > A Docker image is a lightweight GNU/Linux virtual computer that can be run as a piece of software on Windows and OSX (and other Linux systems). To capture the complete computational environment used for this project we have a Dockerfile that specifies how to make the Docker image that we developed this project in. The Docker image includes all of the software dependencies needed to run the code in this project, as well as the R package and other compendium files. To launch the Docker image for this project, first, install Docker](https://docs.docker.com/installation/) on your computer.
 
